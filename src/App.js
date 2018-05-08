@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Calperiod from './Calperiod';
+import Tab from './components/Tab';
 
 class App extends Component {
   constructor(props) {
@@ -21,8 +19,9 @@ class App extends Component {
   render() {
     return (
       <div className="container">
+        <Tab />  
         <h1>คำนวณเงินผ่อนชำระ</h1>
-        <Calperiod />
+        {this.props.children}
       </div>
     );
   }

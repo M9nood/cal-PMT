@@ -58,8 +58,8 @@ class List extends Component {
         }
         return (
             <div>
-            <p>จำนวนงวด : {len}</p>
             <p>จำนวนเงิน : {this.props.money}</p>
+            <p>จำนวนงวด : {len}</p>
             <p>ดอกเบี้ย : {this.props.interest} %/ปี</p>
             <table className="table table-bordered ">
             <thead>
