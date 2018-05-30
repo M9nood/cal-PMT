@@ -21,6 +21,15 @@
 .App-intro {
   font-size: large;
 }
+.container-body{
+  margin-top: 20px;
+}
+.card-body{
+  padding: 15px
+}
+td.text-r{
+  text-align:right;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
